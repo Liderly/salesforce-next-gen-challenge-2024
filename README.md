@@ -4,7 +4,6 @@ Repositorio estructurado en dos secciones principales: **Código Fuente** y **Do
 
 ### Código Fuente (📁`source_code`)
 - **Propósito**: Contiene todo el código desarrollado para el sistema de cobranza en Salesforce.
-
 ---
 ---
 
