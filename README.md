@@ -1,46 +1,53 @@
-# Estructura del Repositorio del Reto Salesforce
+## 📁 Proyecto Salesforce - Optimización del Sistema de Cobranza Universitaria
 
-## 📁 Proyecto Salesforce Reto
-Estructura del repositorio para organizar la implementación del reto de optimización del sistema de cobranza universitaria.
+Repositorio estructurado en dos secciones principales: **Código Fuente** y **Documentación**. Algunos documentos en la carpeta de Documentación pueden estar en formato PDF para mayor claridad y portabilidad.
 
-### 📁 Documentación
-- Contiene documentos técnicos y descripciones del proyecto.
-  - `README.md` - Descripción general del proyecto y cómo usar el repositorio.
-  - `Guía_Usuario.md` - Instrucciones para los usuarios finales.
-  - `Manual_Técnico.md` - Documentación técnica sobre los objetos, flujos y lógica implementada.
-  - `Casos_de_Uso.md` - Descripción de los casos de uso y flujos de trabajo.
+### Código Fuente (📁`source_code`)
+- **Propósito**: Contiene todo el código desarrollado para el sistema de cobranza en Salesforce.
 
-### 📁 Diseño_Sistema
-- Contiene la arquitectura y esquemas de la solución.
-  - `Diagramas/` - Diagramas de flujo, ERD, etc.
-  - `Especificaciones.md` - Descripción de la arquitectura de objetos y relaciones.
-  
-### 📁 Código_Fuente
-- Incluye el código desarrollado en Apex, Visualforce y otros scripts de Salesforce.
-  - `Objetos/` - Código de configuración de objetos y campos.
-  - `Automatizaciones/` - Triggers y Flows para las automatizaciones.
-  - `Templates_Email/` - Plantillas de correo electrónico.
-  - `Validaciones/` - Reglas de validación y aprobación.
-  - `Visualforce_Pages/` - Páginas y plantillas Visualforce.
+---
+---
 
-### 📁 Cotizaciones_PDF
-- Almacena los PDF generados automáticamente para las cotizaciones.
-  - `Cotizaciones/` - Subcarpeta para almacenar las cotizaciones en PDF.
+### Documentación
+- **Propósito**: Centralización de toda la documentación del proyecto, que puede incluir archivos en formato `.md` y `.pdf` para una presentación profesional y fácil distribución. 
 
-### 📁 Pruebas
-- Pruebas funcionales y validaciones del sistema.
-  - `Casos_Prueba.md` - Listado de casos de prueba realizados.
-  - `Resultados_Pruebas.md` - Resultados y feedback de pruebas de usuario.
+#### Documentación Técnica (📁 `technical_documentation/`):
+  - `technical_documentation.md` *(opcionalmente en PDF)*: 
+    -   Descripción de los objetos estándar y personalizados utilizados
+    - Explicación de las relaciones entre objetos.
+    - Detalles sobre las reglas de validación implementadas.
+    -  Descripción de las automatizaciones (Flujos, Triggers) y su lógica.
 
-### 📁 Presentación
-- Recursos y presentaciones del proyecto.
-  - `Presentación_Proyecto.pptx` - Presentación del proyecto final.
-  - `Capturas_Funcionalidades/` - Carpeta con capturas de pantalla de las funcionalidades implementadas.
+  - 📁`Images\` *(en caso de utilizar `.md`)* - En esta sección es necesario guardar capturas de pantalla que demuestren la funcionalidad implementada incluyendo: 
+    - La interfaz de usuario donde se ingresan los datos del alumno.
+    - Ejemplos de cotizaciones generadas.
+    - Resultados de los cálculos de descuentos aplicados.
+    - Visualización de la automatización en acción (por ejemplo, correos enviados).
 
-### 📁 Recursos_Adicionales
-- Documentación adicional y enlaces a recursos útiles.
-  - `Enlaces_Salesforce.md` - Enlaces a documentación y herramientas de Salesforce.
+
+---
+#### Pruebas y Resultados (📁 `testing_results/`)
+  - `testing_results.md` *(opcionalmente en PDF)* - Un documento que incluya los resultados de las pruebas realizadas,mostrando cómo se validaron las funcionalidades implementadas Esto
+puede incluir:
+      - Casos de prueba.
+      - Resultados de las pruebas de usabilidad.
+      - Feedback recibido durante las pruebas.
+
+  - 📁`Images\` *(en caso de utilizar `.md`)* - En esta sección es necesario guardar capturas de pantalla que demuestren los puntos resaltados en esta sección.
+---
+#### Feedback y Reflexiones (📁 `feedback_insights/`)
+  - `feedback_insights.md` *(opcionalmente en PDF)* - Un breve documento que contenga las reflexiones del participante sobre le proceso de desarrollo, los desafíos enfrentados y cómo se abordaron, así como sugerencias para futuras mejoras. 
+
+  - 📁`Images\` *(en caso de utilizar `.md`)* - En esta sección es necesario guardar capturas de pantalla que demuestren los puntos resaltados en esta sección.
+---
+
+#### Presentación del Proyecto (📁`presentation/`)
+  - `salesforce_presentation.pptx` *(puedes utilizar un formato google slides, Powerpoint, etc.)* - Una presentación que resuma:
+      - Objetivos del reto.
+      - Descripción de la solución implemetada.
+      - Demostración de las funcionalidades clave.
+      - Reflexiones sobre el proceso de desarrollo y lecciones aprendidas
 
 ---
 
-> **Nota**: Recuerda actualizar los archivos `.md` y otros documentos conforme avances en el desarrollo del proyecto.
+- > **Nota**: *Si decides realizar la documentación en formato `.pdf`, asegúrate de que cumpla con todos los requisitos especificados en cada sección.
