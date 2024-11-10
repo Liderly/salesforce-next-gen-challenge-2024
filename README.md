@@ -50,3 +50,4 @@ puede incluir:
 ---
 
 - > **Nota**: *Si decides realizar la documentación en formato `.pdf`, asegúrate de que cumpla con todos los requisitos especificados en cada sección.
+  > **Importante: Recuerden que se espera su carpeta completa del proyecto Manifest**
